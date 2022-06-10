@@ -45,13 +45,13 @@ $('.lnb_btn').click(function(){
         $('#lnb').animate({left:0}, du, 'swing');
         $('#wrap').animate({left:274}, du, 'swing');
         $('.cover').fadeIn(du); 
-        $(this).find('img').attr({'src':'img/bg_header_lnb_active.png', 'alt':'메뉴닫기'});
+        $(this).find('img').attr({'src':'images/bg_header_lnb_active.png', 'alt':'메뉴닫기'});
         open = '열림'; 
     } else {
         $('#lnb').animate({left:-274}, du, 'swing');
         $('#wrap').animate({left:0}, du, 'swing');
         $('.cover').fadeOut(du); 
-        $(this).find('img').attr({'src':'img/bg_header_lnb.png', 'alt':'메뉴열기'});
+        $(this).find('img').attr({'src':'images/bg_header_lnb.png', 'alt':'메뉴열기'});
         open = 0; 
     }
 });
